@@ -6,7 +6,11 @@ const Cosmetics = () => {
     const [cosmetics, setCosmetics] = useState([]);
     useEffect(() => {
         fetch('data.json').then(res => res.json()).then(data => setCosmetics(data));
-    },[])
+    }, [])
+    
+    const addToCart = (product) => {
+        console.log('added', product);
+    }
     //create local data offline
     // const cosmetics = [
     //     { id:1,name:'alta',price:100},
@@ -22,6 +26,7 @@ const Cosmetics = () => {
                 cosmetics.map(cosmetic => <Cosmetic
                     key={cosmetic.id}
                     cosmetic={cosmetic}
+                    addToCart={addToCart}
                 ></Cosmetic>)
             }
         </div>
