@@ -5,9 +5,9 @@ import Shoes from './components/Shoes/Shoes';
 
 const App = () => {
   return (
-    <div>
+    <div className='App'>
       <Cosmetics></Cosmetics>
-      <Shoes></Shoes>
+      {/* <Shoes></Shoes> */}
     </div>
   );
 };
