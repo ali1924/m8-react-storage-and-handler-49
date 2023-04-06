@@ -1,0 +1,38 @@
+[
+    {
+        "id": "642e5fdb63337f2d625b3834",
+        "price": 36,
+        "name": "Nolan Sweet",
+        "gender": "male"
+    },
+    {
+        "id": "642e5fdb913e88b51ebcbe02",
+        "price": 31,
+        "name": "Beatrice Mcgowan",
+        "gender": "female"
+    },
+    {
+        "id": "642e5fdb733179f283cd8410",
+        "price": 31,
+        "name": "Hawkins Howell",
+        "gender": "male"
+    },
+    {
+        "id": "642e5fdba92088923b39a21e",
+        "price": 34,
+        "name": "Howard Graham",
+        "gender": "male"
+    },
+    {
+        "id": "642e5fdb5f04cd67ab1f14fe",
+        "price": 23,
+        "name": "Angelica Horton",
+        "gender": "female"
+    },
+    {
+        "id": "642e5fdb192301cfc94e13cc",
+        "price": 28,
+        "name": "Morse Hubbard",
+        "gender": "male"
+    }
+]
