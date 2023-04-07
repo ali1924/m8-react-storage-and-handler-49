@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Cosmetics.css';
 import Cosmetic from '../Cosmetic/Cosmetic';
 import { addToDb } from '../../utilities/fakedb';
+import { addDbWithObject } from '../../utilities/fakeDbWithObject';
 const Cosmetics = () => {
     // create local data online json generator
     const [cosmetics, setCosmetics] = useState([]);
@@ -11,7 +12,8 @@ const Cosmetics = () => {
     
     const addToCart = (product) => {
         // console.log('added', product);
-        addToDb(product.id);
+        // addToDb(product.id);
+        addDbWithObject(product.id);
     }
     //create local data offline
     // const cosmetics = [
